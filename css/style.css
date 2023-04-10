@@ -1,20 +1,27 @@
 .container {
     max-width: 1920px;
     width: 100%;
-    margin-inline: auto;
-    
+    margin: 0 auto;
+    position: relative;
+
+
 }
 
 
 /* header */
 
 header {
-    width: 100%;
+    max-width: inherit;
+    width: inherit;
     height: 130px;
     display: flex;
     background-color: #262626;
     position: fixed;
     align-items: center;
+
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 
@@ -25,7 +32,7 @@ nav {
     gap: 68px;
 }
 
-nav :nth-child(1){
+nav :nth-child(1) {
     color: #DCB47A;
 }
 
@@ -47,8 +54,70 @@ nav a {
 }
 
 
-/* main picture */
+/* section 1 */
 
 
+section {
+    width: 100%;
+    height: 1080px;
+    padding-top: 130px;
+    /* position: relative; */
+
+}
+
+.mainpic {
+    width: 100%;
+    height: 1080px;
+    object-fit: cover;
+    object-position: center;
+
+}
 
 
+section h1 {
+    color: white;
+    font-size: 82px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+
+section p {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    width: 38%;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%);
+    text-align: center;
+
+}
+
+section button {
+    position: absolute;
+    width: 28%;
+    left: 50%;
+    top: 78%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+
+
+}
