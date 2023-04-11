@@ -62,7 +62,7 @@ section {
     height: 1080px;
     padding-top: 130px;
     /* position: relative; */
-   
+
 
 }
 
@@ -130,50 +130,50 @@ section button {
 
 
 
-.seller{
+.seller {
     width: 80%;
     height: 557px;
 
-    
-    
-    
+
+
+
 }
 
 
 
-.cards{
+.cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 55px;
     margin-top: 184px;
-    margin-left: 320px;
+    margin-left: 120px;
 }
 
-.title{
+.title {
     width: 60%;
-    
+
     font-family: 'Work Sans', sans-serif;
     font-size: 75px;
     color: #081323;
     display: flex;
     margin-top: 265px;
     margin-left: 140px;
-    
+
 
 }
 
-.card{
+.card {
     width: 390px;
     height: 388px;
     border: 2px solid #DCB47A;
     padding: 31px 41px;
     background-color: white;
-    
+
 }
 
 
-.cards p{
+.cards p {
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
     margin-top: 40px;
@@ -185,17 +185,17 @@ section button {
 
 
 
-.section3{
+.section3 {
     margin-top: 245px;
     margin-left: 145px;
     width: 81%;
     height: 800px;
-    position: relative;
+
 }
 
 
 
-.interiortitle{
+.interiortitle {
     font-size: 75px;
     color: #081323;
     font-family: 'Work Sans', sans-serif;
@@ -203,7 +203,7 @@ section button {
 }
 
 
-.interiorpic{
+.interiorpic {
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -212,8 +212,65 @@ section button {
 
 
 
-.interiorpic :nth-child(3){
+.interiorpic :nth-child(3) {
     position: absolute;
     margin: 333px 758px;
 }
+
+
+
+/* footer */
+
+
+footer {
+    width: 100%;
+    height: 378px;
+    background-color: #262626;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+footer h1 {
+
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+
+    gap: 15px;
+
+}
+
+span {
+    color: #DCB47A;
+
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'Work Sans', sans-serif;
+
+
+}
+
+
+.button {
+    width: 200px;
+    height: 64px;
+    background-color: #DCB47A;
+    border-radius: 35%;
+    
+}
+
+.button p{
+    color: white;
 }
